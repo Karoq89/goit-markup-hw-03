@@ -4,6 +4,10 @@
     <title>Studio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="CSS/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,71 +21,71 @@
         >Web<span class="studio">Studio</span></a
       >
 
-      <nav>
-        <ul>
-          <li style="list-style-type: none">
-            <a class="agency" href="index.html">Agencja</a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="menu-list agency">
+            <a href="index.html" class="menu-link">Agencja</a>
           </li>
-          <li style="list-style-type: none">
-            <a class="portfolio" href="portfolio.html">Portfolio</a>
+          <li class="menu-list portfolio">
+            <a href="portfolio.html" class="menu-link">Portfolio</a>
           </li>
-          <li style="list-style-type: none">
-            <a class="contact" href="index.html">Kontakt</a>
+          <li class="menu-list contact">
+            <a href="index.html" class="menu-link">Kontakt</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li style="list-style-type: none">
+      <ul class="header-contacts">
+        <li>
           <a class="mail" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li style="list-style-type: none">
+        <li>
           <a class="tel" href="tel+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </header>
 
     <main>
-      <div>
+      <div class="container main">
         <h1>
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
 
-        <button class="order-service">Zamów usługę</button>
+        <button type="button" class="order-service">Zamów usługę</button>
       </div>
 
       <section class="section">
-        <div class="container-lorem">
-          <ul>
-            <li>
+        <div class="container">
+          <ul class="lorem-desc">
+            <li class="lorem">
               <h3>Lorem ipsum</h3>
-              <p class="lorem-desc">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li>
+            <li class="lorem">
               <h3>Lorem ipsum</h3>
-              <p class="lorem-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
-            </li>
-
-            <li>
-              <h3>Lorem ipsum</h3>
-              <p class="lorem-desc">
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
-            <li>
+            <li class="lorem">
               <h3>Lorem ipsum</h3>
-              <p class="lorem-desc">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+
+            <li class="lorem">
+              <h3>Lorem ipsum</h3>
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -126,15 +130,15 @@
 
       <section class="our-team">
         <h2 class="meet-our-team">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
+        <ul class="our-team-photos">
+          <li class="photos-team">
+            <figure class="photo-frame">
               <img
                 class="man-laptop"
                 src="Images/man_laptop.jpg"
                 alt="men-with-smile"
-                width="270"
-                height="180"
+                width="240"
+                height="auto"
               />
               <figcaption class="name">
                 John Doe <br />
@@ -144,13 +148,13 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="photo-frame">
               <img
                 class="woman-blonde"
                 src="Images/woman_blonde.jpg"
                 alt="woman with blond hair"
-                width="270"
-                height="180"
+                width="240"
+                height="auto"
               />
               <figcaption class="name">
                 John Doe <br />
@@ -160,13 +164,13 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="photo-frame">
               <img
                 class="man-blue"
                 src="Images/men_blue.jpg"
                 alt="man in blue t-shirt"
-                width="270"
-                height="180"
+                width="240"
+                height="auto"
               />
               <figcaption class="name">
                 John Doe <br />
@@ -176,13 +180,13 @@
           </li>
 
           <li>
-            <figure>
+            <figure class="photo-frame">
               <img
                 class="man-black"
                 src="Images/man_black.jpg"
                 alt="man in black t-shirt"
-                width="270"
-                height="180"
+                width="240"
+                height="auto"
               />
               <figcaption class="name">
                 8 John Doe <br />
